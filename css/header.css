@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import "generales.css";
+/* ol,ul{
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+} */
+/* body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+} */
+.ns{
+    width: 100%;
+    height: 90px;
+}
+.barraHeader{
+    position: fixed;
+    width: 100%;
+}
+.boxbarra{
+    background: linear-gradient(180deg, #4D4D4D  0%, rgba(0,0,0,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+.logoArbu{
+margin: 15px;
+}
+.botonDesplegar{
+    height: 35px;
+    width: 50px;
+    margin: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+.lineasBarras{
+    border-radius: 3px;
+    margin-right: 10px;
+    width: 100%;
+    height: 5px;
+}
+.Barra1{
+    background: linear-gradient(180deg, rgba(109,52,138,1) 0%, rgba(138,52,129,1) 100%);
+}   
+.Barra2{
+    background: linear-gradient(180deg, rgba(138,52,129,1) 0%, rgb(160, 76, 125) 100%);
+}
+.Barra3{
+    background: linear-gradient(180deg, rgb(147, 65, 113) 0%, #b86594 100%);
+}
+.Barra4{
+    background: linear-gradient(180deg, rgb(156, 75, 121) 0%, rgba(219,105,193,1) 100%);
+}
+.boxNav{
+    display: flex;
+    align-items: center;
+}
+.menuFlotante{
+    background: linear-gradient(90deg, rgba(109,52,138,0.8) 17%, rgba(219,105,193,0.1) 100%);
+    position: absolute;
+    left: 0px;
+    top: 90px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100%;
+    transition: all 0.5s;
+}
+.mostrar{
+    margin-left: 0;
+}
+.listaNav{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.botonNav{
+    margin : 20px; 
+    padding: 25px;
+    border-bottom: 2px solid whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.botonNav a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#botonMenu.active{
+    transition: .2s;
+    transition-delay: 0.8s;
+    transform: rotate(45deg); 
+}
+#botonMenu.active >div:nth-child(2){
+    transition: .2s;
+    width: 0;
+}/* 
+#botonMenu.active >span:nth-child(1),
+#botonMenu.active >span:nth-child(3){
+} */
+#botonMenu.active >div:nth-child(1){
+    transition: .2s;
+    transition-delay: 0.4s;
+    transform: translateY(9px);
+}
+#botonMenu.active >div:nth-child(3){
+    transition: .2s;
+    transition-delay: 0.4s;
+    transform: translateY(-9px) rotate(90deg);
+}
+#botonMenu.active >div:nth-child(4){
+    transition: .2s;
+    width: 0;
+}
+
+@media (min-width: 769px) {
+    .menuFlotante {
+
+      width: 20%;
+    }
+    .mostrar{
+        margin-left: 80%;
+    }
+  }

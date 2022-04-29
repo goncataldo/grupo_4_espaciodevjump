@@ -1,0 +1,139 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Josefin+Sans&family=Roboto:wght@100;300&family=Smooch+Sans:wght@500&family=Titillium+Web:wght@300&display=swap'); */
+@import "generales.css";
+/* main{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+/* main .cajas{
+    
+    background-color: blue;
+    width: 200px;
+    height: 300px;
+    margin: 15px;
+} */
+footer{
+    background-color: black;
+}
+footer .containerFooter{
+    display: flex;
+    flex-direction: column;   
+}
+footer .containerFooter .redes{
+    display: flex;
+    justify-content: center;
+}
+footer .containerFooter .redes .contenidoRedes{
+    margin: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .containerFooter .redes .contenidoRedes .vinietas{
+    display: none;
+}
+footer .containerFooter .redes a{
+    
+    font-size: 22px;
+}
+footer .containerFooter .bloqueServiciosUno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+   
+}
+footer .containerFooter .bloqueServiciosUno a{
+    margin: 15px;
+}
+footer .containerFooter .bloqueServiciosDos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+   
+}
+footer .containerFooter .bloqueServiciosDos a{
+    margin: 15px;
+}
+footer .containerFooter .copyRight p{
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+@media(min-width:1024px){
+   
+    footer .containerFooter{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    footer .containerFooter .redes .contenidoRedes{
+        margin: 0;
+        width: 45px;
+    }
+
+    footer .containerFooter .redes .contenidoRedes .vinietas{
+        display: inline;
+        color: #fff ;
+        background-color: rgb(77, 77, 77);
+        border-radius: 15px;
+        padding: 2px;
+        font-size: 12px;
+        position: relative;
+        bottom: 10px;
+        /* left: 20px; */
+        z-index: 10 ;
+        opacity: 0;
+        pointer-events: none;
+    }
+    footer .containerFooter .redes .contenidoRedes:hover .vinietas{
+        opacity: 1;
+        pointer-events: auto;
+    }
+    footer .containerFooter .redes .contenidoRedes .vinietas::before{
+        position: absolute;
+        content: "";
+        height: 10px;
+        width: 10px;
+        background-color:  rgb(77, 77, 77);
+        bottom: -4px;
+        left: 50%;
+        z-index: -1;
+        transform: translateX(-50%) rotate(45deg);       
+    }
+    footer .containerFooter .redes{
+        align-items: center;
+        flex-basis: 33.33%;
+        border-top: none;
+        border-bottom: none;
+        border-right: 1px solid #fff;
+        margin-top: 20px;
+    }
+    footer .containerFooter .redes a:hover{
+        color: rgb(102, 102, 102);
+    }
+    footer .containerFooter .bloqueServiciosUno{
+        flex-basis: 33.33%;
+        border-top: none;
+        border-bottom: none;
+        border-right: 1px solid #fff;
+        margin-top: 20px;
+       
+    }
+    footer .containerFooter .bloqueServiciosUno a:hover{
+        transition: 0.5s;
+        color:#6D348A ;
+    }
+    footer .containerFooter .bloqueServiciosDos{
+        flex-basis: 33.33%;
+        border-top: none;
+        border-bottom: none;
+        margin-top: 20px;
+    }
+    footer .containerFooter .bloqueServiciosDos a:hover{
+        transition: 0.5s;
+        color:#6D348A ;
+    }
+}

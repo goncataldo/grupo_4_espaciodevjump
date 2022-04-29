@@ -1,0 +1,233 @@
+@import "generales.css";
+/* body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+/* INICIO DEL MAIN  Inicio de Cris*/
+.principal{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 520px;
+    overflow: hidden;
+    background-image: url(../img/11761-hd-1080p.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    /* flex-flow: wrap; */
+    margin-left: 0px;
+    margin-top: 150px;
+    /* width: 100%; */
+    flex-basis: 80%;
+   /*  width: 750%;
+    height: 550%; */
+    overflow: hidden;
+   
+    
+}
+
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.boton{
+    margin-top: 40px;
+    margin-left: 50px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 8px;
+}
+.texto1{/*rubik*/
+    
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+
+
+
+    margin-left: 50px;
+    color: white;
+}
+.texto2{/*elvetica*/
+    font-family: 'Rubik', sans-serif;
+    margin-left: 50px;
+    color: white;
+}
+
+/* FIN DEL MAIN  parte de Cris*/
+
+
+
+/* inico de parte de gonza */
+.contenedorPadre {
+    
+    background-color: #242424;
+    text-align: center;
+}
+.tecnologias {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.desarrolla {
+    font-family: "rubik";
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    flex-grow: 400px;
+}
+.desarrolla h2{
+    margin: 55px;
+}
+
+.cartel {
+    display: flex;
+    background: linear-gradient(0deg, rgba(26,26,26,1) 29%, rgba(0,0,0,1) 73%);
+    border-radius: 20px;
+    font-family: "rubik";
+    color: white;
+    width: 70%;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.fe {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.html {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-flow: wrap;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+
+.texto {
+    
+    display: flex;
+    flex-basis: 700px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "helvetica";
+    color: white;
+}
+.curso {
+    margin-top: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+.botonhtml {
+    color: white;
+    height: 100%;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(114,35,165,1) 12%, rgba(211,70,185,1) 100%);
+}
+.linea {
+background-color: white;
+height: 2px;
+    width: 40%;
+}
+.css {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-flow: wrap;
+    flex-grow: 1;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.htmlbox {
+    color: white;
+    font-size: 45px;
+    border: #242424;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+    font-family: "helvetica";
+    background: linear-gradient(267deg, rgba(114,35,165,1) 11%, rgba(0,0,0,1) 100%);
+    display: flex;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.cssbox {
+    color: white;
+    font-size: 45px;
+    border: #242424;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+    font-family: "helvetica";
+    background: linear-gradient(90deg, rgba(26,206,188,1) 18%, rgba(0,0,0,1) 91%);
+    display: flex;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.jsbox {
+    color: white;
+    font-size: 45px;
+    border: #242424;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+    font-family: "helvetica";
+    background: linear-gradient(90deg, rgba(0,0,0,1) 12%, rgba(40,0,107,1) 100%);
+    display: flex;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.a{
+    height: 30px;
+}
+
+@media(max-width: 1000px){
+.texto {
+    overflow: hidden;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.asd {
+    overflow: hidden;
+}
+}
+/* fin de la parte de gonza */
+@media(max-width:766px){
+    .principal{
+        align-items: center;
+        justify-content: center;
+    }
+    .box{
+        flex-basis: 80%;
+        text-align: center;
+    }
+}
