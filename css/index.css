@@ -15,7 +15,6 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 .box1{
     display: flex;
@@ -52,10 +51,7 @@
     
     font-weight: bold;
     font-family: 'Rubik', sans-serif;
-    font-size: 20px;
-
-
-
+    font-size: 35px;
     margin-left: 50px;
     color: white;
 }
@@ -120,7 +116,7 @@
 }
 
 
-.texto {
+.texto{
     
     display: flex;
     flex-basis: 700px;
@@ -138,6 +134,7 @@
 }
 .botonhtml {
     color: white;
+    padding: 0px 8px 0px 8px;
     height: 100%;
     border-style: solid;
     border-width: 0px;
@@ -226,8 +223,19 @@ height: 2px;
         align-items: center;
         justify-content: center;
     }
-    .box{
+    .box1{
+        margin:0;
+        padding: 0;
         flex-basis: 80%;
         text-align: center;
+    }
+    .texto1{
+        margin: 0;
+    }
+    .texto2{
+        margin: 0;
+    }
+    .boton{
+        margin-left: 0;
     }
 }

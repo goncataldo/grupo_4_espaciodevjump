@@ -65,7 +65,7 @@ margin: 15px;
     align-items: center;
 }
 .menuFlotante{
-    background: linear-gradient(90deg, rgba(109,52,138,0.8) 17%, rgba(219,105,193,0.1) 100%);
+    background: linear-gradient(90deg, rgba(109,52,138,0.98) 17%, rgba(219,105,193,0.98) 100%);
     position: absolute;
     left: 0px;
     top: 90px;
