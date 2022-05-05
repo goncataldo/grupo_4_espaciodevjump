@@ -1,0 +1,18 @@
+Parte de cris. Titulo. Centrar en movil*Hecho*
+
+Probrar fondo de section(Gonza) con color #1A1A1A y cambiarle a FRONT END DEV JUMPER por otra cosa. Opcion pensada "border 1 solid grey"
+opcion 2 "probar box shadow"
+
+Transparecia de navegador flotante(maxi) 0.98 en ambos colores*hecho*
+
+Titulo de roadmap +Margin entre titulo y texto
+
+hover links menu flotantes
+
+boton "Empecemos" sin bordes y con hover
+
+botones "Ir al curso" hover
+
+cajas "html, css, js" hover shadow box
+
+cambiar footer Grupo5 x "Grupo4"
