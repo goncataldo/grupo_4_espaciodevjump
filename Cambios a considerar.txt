@@ -16,3 +16,5 @@ botones "Ir al curso" hover
 cajas "html, css, js" hover shadow box
 
 cambiar footer Grupo5 x "Grupo4"
+
+poner los links a los botones del footer
