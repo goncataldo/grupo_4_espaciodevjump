@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import "generales.css";
+
+aside{
+    position: fixed;
+    right: 0;
+    top: 100px;
+    overflow-y: scroll;
+    width: 30%;
+}
+.containerAside{
+    background-color: grey;
+    display: flex;
+    margin: 25px;
+    flex-direction: column;
+    border-radius: 10px;
+    flex-basis: 20%;
+}
+.tituloClaseHtml{
+    padding: 10px;
+    margin: 25px;
+    font-size: 20px;
+}
+.listaDeClases{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.botonesDeClases{
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 25px;
+    font-size: 20px;
+}
+.lineaSeparadora{
+    height: 3px;
+    background-color: white;
+    margin: 20px;
+}
+.botonesDeCursos{
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 20px;
+    font-size: 14px;
+}
