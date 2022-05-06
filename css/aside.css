@@ -4,12 +4,13 @@
 aside{
     position: fixed;
     right: 0;
-    top: 100px;
+    top: 80px;
     overflow-y: scroll;
     width: 30%;
+    height: 63%;
 }
 .containerAside{
-    background-color: grey;
+    background: linear-gradient(180deg, rgba(26,26,26,1) 10%, rgba(36,36,36,1) 90%);
     display: flex;
     margin: 25px;
     flex-direction: column;
@@ -17,31 +18,40 @@ aside{
     flex-basis: 20%;
 }
 .tituloClaseHtml{
+    display: flex;
     padding: 10px;
-    margin: 25px;
+    margin: 20px;
     font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    color: #FF8000;
+    font-size: 30px;
 }
 .listaDeClases{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.listaDeClases :hover{
+    background: linear-gradient(90deg, rgba(109,52,138,1) 0%, rgba(219,105,193,1) 100%);
+}
 .botonesDeClases{
     border: 3px solid white;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
     margin: 25px;
-    font-size: 20px;
+    font-size: 25px;
 }
 .lineaSeparadora{
     height: 3px;
     background-color: white;
-    margin: 20px;
+    margin: 17px;
 }
 .botonesDeCursos{
-    border: 3px solid white;
+    display: flex;
+    border: 2px solid white;
     border-radius: 10px;
     padding: 7px;
-    margin: 20px;
-    font-size: 14px;
+    margin: 15px;
+    font-size: 13px;
 }
