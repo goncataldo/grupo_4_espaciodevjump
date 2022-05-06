@@ -5,7 +5,7 @@ main {
 }
 .containerClases{
     display: flex;
-
+    flex-direction: column;
 }
 .containerClases .clase1{
     margin: 20px;
@@ -78,16 +78,15 @@ main {
 
 @media(min-width:768px){
     .containerClases .clase1 .documentacion{
-        width: 100%;
+        width: 90%;
     }
 }
 @media(min-width:1024px){
-    .containerClases .clase1{
-        width: 65%;
-    }
     .containerClases .clase1 .elIframe{
-       
         padding-bottom: 56.25%;
+    }
+    .containerClases {
+        width: 60%;
     }
     .containerClases .clase1 .documentacion{
         width: 60%;
