@@ -6,6 +6,7 @@ main {
 .containerClases{
     display: flex;
     flex-direction: column;
+    width: 90%;
 }
 .containerClases .clase1{
     margin: 20px;
@@ -80,15 +81,24 @@ main {
     .containerClases .clase1 .documentacion{
         width: 90%;
     }
+    .containerClases {
+        width: 65%;
+    }
 }
 @media(min-width:1024px){
     .containerClases .clase1 .elIframe{
         padding-bottom: 56.25%;
     }
     .containerClases {
-        width: 60%;
+        width: 65%;
     }
     .containerClases .clase1 .documentacion{
-        width: 60%;
+        width: 65%;
     }
+}
+.containerClases .clase1{
+    display: none;
+}
+.containerClases .clase1.activo1{
+    display: flex;
 }

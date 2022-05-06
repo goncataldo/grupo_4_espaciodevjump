@@ -3,17 +3,17 @@ const $losItem=document.querySelectorAll('.botonesDeClases');
 
 function quitaYAgregaClases(){
 $losItem.forEach(elemento=>{
-    elemento.classList.remove('active')
-    this.classList.add('active')
+    elemento.classList.remove('activo')
+    this.classList.add('activo')
 })
 }
 
 function averSi(elNum){
     for(let i=0;i<$lasClases.length;i++){
         if(i==elNum){
-            $lasClases[i].classList.add('active1')
+            $lasClases[i].classList.add('activo1')
         }else{
-            $lasClases[i].classList.remove('active1');
+            $lasClases[i].classList.remove('activo1');
         }
         
        

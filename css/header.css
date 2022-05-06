@@ -67,7 +67,7 @@ margin: 15px;
 .menuFlotante{
     background: linear-gradient(90deg, rgba(109,52,138,0.98) 17%, rgba(219,105,193,0.98) 100%);
     position: absolute;
-    left: 0px;
+    left: 100%;
     top: 90px;
     border-top-left-radius: 35px;
     border-bottom-left-radius: 35px;
@@ -75,11 +75,10 @@ margin: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 100%;
     transition: all 0.5s;
 }
 .mostrar{
-    margin-left: 0;
+    left: 0;
 }
 .listaNav{
     display: flex;
@@ -135,6 +134,6 @@ margin: 15px;
       width: 20%;
     }
     .mostrar{
-        margin-left: 80%;
+        left: 80%;
     }
   }

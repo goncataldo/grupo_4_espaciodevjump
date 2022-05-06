@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import "generales.css";
 
+article{
+    display: flex;
+}
 aside{
-    position: fixed;
-    right: 0;
-    top: 80px;
-    overflow-y: scroll;
-    width: 30%;
-    height: 63%;
+    width: 35%;
 }
 .containerAside{
     background: linear-gradient(180deg, rgba(26,26,26,1) 10%, rgba(36,36,36,1) 90%);
-    display: flex;
-    margin: 25px;
-    flex-direction: column;
+    padding: 15px;
+    margin-right: 25px;
+    width: 80%;
+    max-height: 400px;
     border-radius: 10px;
-    flex-basis: 20%;
+    position: sticky;
+    top: 100px;
+    overflow-y: scroll;
 }
+
 .tituloClaseHtml{
     display: flex;
     padding: 10px;
@@ -25,22 +27,30 @@ aside{
     align-items: center;
     justify-content: center;
     color: #FF8000;
-    font-size: 30px;
+    font-size: 23px;
 }
 .listaDeClases{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
+    
+    
 }
-.listaDeClases :hover{
+.listaDeClases  :hover{
     background: linear-gradient(90deg, rgba(109,52,138,1) 0%, rgba(219,105,193,1) 100%);
+    
 }
+
 .botonesDeClases{
     border: 3px solid white;
     border-radius: 10px;
     padding: 10px;
-    margin: 25px;
-    font-size: 25px;
+    margin: 18px;
+    font-size: 16px;
+    text-align: center;  /* Esto hace que los botones tengan el mismo tamaño */
+    width: 150px;               /* Esta linea tambien hace lo mismo que arriba */
+    cursor: pointer;
 }
 .lineaSeparadora{
     height: 3px;
@@ -53,5 +63,28 @@ aside{
     border-radius: 10px;
     padding: 7px;
     margin: 15px;
+    width: 100px;
     font-size: 13px;
+    justify-content: center;
+}
+.listaDeCursos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.listaDeCursos a :hover{
+    background: linear-gradient(90deg, rgba(109,52,138,1) 0%, rgba(219,105,193,1) 100%);
+    cursor: pointer;
+}
+.botonesDeClases.activo{
+    background: linear-gradient(90deg, rgba(109,52,138,1) 0%, rgba(219,105,193,1) 100%);
+    border: none;
+    padding: 13px;
+}
+
+@media (max-width: 426px){
+    aside{
+        display: none;
+    }
 }
