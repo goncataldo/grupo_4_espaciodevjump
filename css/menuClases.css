@@ -1,0 +1,18 @@
+@import "generales.css";
+.menuChiquito{
+    background-color: #1a1a1a;
+    /* align-self:center; */
+    position: fixed;
+    top: 400px;
+    right: 0px;
+    border-radius: 15px;
+}
+.menuChiquito i{
+    font-size: 30px;
+    color: #Fff;
+}
+@media (min-width:768px){
+    .menuChiquito{
+        display: none;
+    }
+}

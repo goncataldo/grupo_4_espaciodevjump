@@ -85,6 +85,17 @@ aside{
 
 @media (max-width: 426px){
     aside{
-        display: none;
+      position: fixed;
+      transform: translateX(500px);
+      width: 82%;
+      z-index: 10;
+    }
+    aside.active{
+        transition: .2s;
+        /* transform: skewX(30px); */
+        transform: translateX(20px);
+    }
+    .containerAside{
+        width: 100%;
     }
 }
