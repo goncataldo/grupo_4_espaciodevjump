@@ -136,8 +136,8 @@ margin: 15px;
 
 @media (min-width: 769px) {
     .menuFlotante {
-
       width: 20%;
+      z-index: 15;
     }
     .mostrar{
         left: 80%;
