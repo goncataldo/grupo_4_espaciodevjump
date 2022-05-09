@@ -40,6 +40,7 @@ button:hover {
 }
 
 .boton{
+    cursor: pointer;
     margin-top: 40px;
     margin-left: 50px;
     color: white;
