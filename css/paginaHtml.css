@@ -70,7 +70,7 @@ main {
 .laintroduccion {
     border-radius: 15px;
     padding: 20px;
-    background: linear-gradient(180deg, rgba(26,26,26,1) 10%, rgba(36,36,36,1) 90%);
+    background: linear-gradient(180deg, #1a1a1a 10%, #242424 90%);
 
 }
 .introduccion {
