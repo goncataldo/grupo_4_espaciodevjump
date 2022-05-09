@@ -135,6 +135,7 @@ button:hover {
     justify-content: center;
 }
 .botonhtml {
+    cursor: pointer;
     color: white;
     padding: 0px 8px 0px 8px;
     height: 100%;
@@ -168,13 +169,18 @@ height: 2px;
     border-width: 1px;
     border-radius: 25px;
     font-family: "helvetica";
-    background: linear-gradient(267deg, rgba(114,35,165,1) 11%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(267deg, rgba(114,35,165,.50) 11%, rgba(0,0,0,.50) 100%);
     display: flex;
     margin: 50px;
     width: 200px;
     height: 200px;
     justify-content: center;
     align-items: center;
+}
+.htmlbox:hover{
+    transition: .8s;
+    -webkit-box-shadow: 0px 0px 40px 15px rgba(114,35,165,1); 
+    box-shadow: 0px 0px 40px 15px rgba(114,35,165,.20);
 }
 .cssbox {
     color: white;
@@ -184,13 +190,18 @@ height: 2px;
     border-width: 1px;
     border-radius: 25px;
     font-family: "helvetica";
-    background: linear-gradient(90deg, rgba(26,206,188,1) 18%, rgba(0,0,0,1) 91%);
+    background: linear-gradient(90deg, rgba(26,206,188,.50) 18%, rgba(0,0,0,.50) 91%);
     display: flex;
     margin: 50px;
     width: 200px;
     height: 200px;
     align-items: center;
     justify-content: center;
+}
+.cssbox:hover{
+    transition: .8s;
+    -webkit-box-shadow: 0px 0px 40px 15px rgba(26,206,188,.20); 
+    box-shadow: 0px 0px 40px 15px rgba(26,206,188,.20);
 }
 .jsbox {
     color: white;
@@ -200,13 +211,18 @@ height: 2px;
     border-width: 1px;
     border-radius: 25px;
     font-family: "helvetica";
-    background: linear-gradient(90deg, rgba(0,0,0,1) 12%, rgba(40,0,107,1) 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,.50) 12%, rgba(40,0,107,.50) 100%);
     display: flex;
     margin: 50px;
     width: 200px;
     height: 200px;
     align-items: center;
     justify-content: center;
+}
+.jsbox:hover{
+    transition: .8s;
+    -webkit-box-shadow: 0px 0px 40px 15px rgba(40,0,107,.50); 
+    box-shadow: 0px 0px 40px 15px rgba(40,0,107,.50);
 }
 .a{
     height: 30px;
