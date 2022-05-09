@@ -34,12 +34,9 @@ aside{
     flex-direction: column;
     align-items: center;
     color: white;
-    
-    
 }
-.listaDeClases  :hover{
+.listaDeClases a li:hover{
     background: linear-gradient(90deg, rgba(109,52,138,1) 0%, rgba(219,105,193,1) 100%);
-    
 }
 
 .botonesDeClases{
