@@ -24,7 +24,7 @@
     margin-top: 150px;
     /* width: 100%; */
     flex-basis: 80%;
-   /*  width: 750%;
+    /*  width: 750%;
     height: 550%; */
     overflow: hidden;
 }
@@ -143,6 +143,9 @@ button:hover {
     border-radius: 5px;
     background: linear-gradient(90deg, rgba(114,35,165,1) 12%, rgba(211,70,185,1) 100%);
 }
+.botonhtml:hover {
+    background: linear-gradient(180deg, rgba(95,158,160,1) 0%, rgba(95,158,160,1) 100%);
+}
 .linea {
 background-color: white;
 height: 2px;
@@ -207,6 +210,9 @@ height: 2px;
 }
 .a{
     height: 30px;
+}
+.asd {
+    margin-top: 20px;
 }
 
 @media(max-width: 1000px){
